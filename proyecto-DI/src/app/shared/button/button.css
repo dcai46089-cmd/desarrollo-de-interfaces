@@ -1,0 +1,49 @@
+/* Estilo base*/
+button {
+    box-sizing: border-box;
+    width: var(--width);
+    padding: 0.6rem 1.2rem;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--background);
+    color: var(--color);
+    cursor: pointer;
+}
+
+button:disabled {
+    background: #DBDBDB;
+    color: #7f7f7f;
+    border: 1px solid #DBDBDB;
+    cursor: not-allowed;
+}
+
+/*Variantes del boton definidas como clases de css*/
+
+.primary {
+    --background: #E2354D;
+    --color: #ffffff;
+    --border: #E2354D;
+    --width: 390px;
+}
+
+.primary-mid-width{
+    
+}
+
+.secondary-mid-width{
+
+}
+
+.close-session-navbar{
+
+}
+
+.edit-user-profile{
+
+}
+
+.delete-user-profile{
+
+}

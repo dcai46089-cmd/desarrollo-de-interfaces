@@ -30,7 +30,7 @@ input:disabled {
 .input_default {
     --width: 390px;
     --background: #ffffff;
-    --text: #333333;
+    --color: #333333;
     --border: #cccccc;
     --border-focus: #e2354d;
 }
@@ -38,7 +38,7 @@ input:disabled {
 .input_focus {
     --width: 390px;
     --background: #ffffff;
-    --text: #333333;
+    --color: #333333;
     --border: #e2354d;
     --border-focus: #e2354d;
 }
@@ -46,7 +46,7 @@ input:disabled {
 .input_error {
     --width: 390px;
     --background: #ffffff;
-    --text: #e2354d;
+    --color: #e2354d;
     --border: #e2354d;
     --border-focus: #e2354d;
 }

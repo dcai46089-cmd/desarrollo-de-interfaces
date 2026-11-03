@@ -1,0 +1,52 @@
+/* Estilo base */
+
+input {
+    box-sizing: border-box;
+    width: var(--width);
+    padding: 0.6rem 1.2rem;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--background);
+    color: var(--color);
+    transition: 
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+input:focus:not(:disabled) {
+    border-color: var(--border-focus);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(226, 53, 77, 0.15);
+}
+
+input:disabled {
+    background: #d8d8d8;
+    color: #7f7f7f;
+    border: 1px solid #d8d8d8;
+    cursor: not-allowed;
+}
+
+.input_default {
+    --width: 390px;
+    --background: #ffffff;
+    --text: #333333;
+    --border: #cccccc;
+    --border-focus: #e2354d;
+}
+
+.input_focus {
+    --width: 390px;
+    --background: #ffffff;
+    --text: #333333;
+    --border: #e2354d;
+    --border-focus: #e2354d;
+}
+
+.input_error {
+    --width: 390px;
+    --background: #ffffff;
+    --text: #e2354d;
+    --border: #e2354d;
+    --border-focus: #e2354d;
+}

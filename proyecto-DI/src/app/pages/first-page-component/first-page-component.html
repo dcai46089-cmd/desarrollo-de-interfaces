@@ -3,7 +3,7 @@
         title="Prueba de título"
         subtitle="Prueba de subtitle">
     </app-header>
-    
+
     <h1>Button Component</h1>
     <app-button 
     text = "Realizar pago"
@@ -11,4 +11,13 @@
     [disabled] = "false"
     (pressed) = "onPressed()">
     </app-button>
+
+    <h1>Text input component</h1>
+    <app-text-input
+        placeholder = "escribe tu nombre aqui"
+        classType = "input_default"
+        type = "text"
+        [disabled] = "false"
+        (valueChange) = "onValueChange($event)"
+    ></app-text-input>
 </div>
